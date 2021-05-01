@@ -59,7 +59,7 @@ nav a:hover{
     align-items: center;
     flex-basis: 70%;
     margin-left:20px;
-    background: url(IMG/stock.jpeg);
+    background: url("https://thumbs.dreamstime.com/b/financial-investing-stock-market-concept-gain-profits-faded-candlestick-charts-116853300.jpg");
     background-size: cover;
     background-position: center;
     /* transform-origin: center; */
