@@ -59,7 +59,7 @@ nav a:hover{
     align-items: center;
     flex-basis: 70%;
     margin-left:20px;
-    background: url(stock.jpeg);
+    background: url(images/stock.jpeg);
     background-size: cover;
     background-position: center;
     /* transform-origin: center; */
