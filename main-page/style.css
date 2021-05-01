@@ -1,0 +1,143 @@
+
+/* Common things */
+/* body{
+    margin:0px;
+    padding:0px;
+} */
+[data-heading="same"]{
+    font-family: 'Italianno', cursive;
+    font-size: 40px;
+    transition: 1s;
+}
+[data-heading="same"]:hover{
+    text-decoration: underline white;
+}
+
+[data-margin="sections"]{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+/* end of common */
+
+
+section{
+    display:flex;
+}
+#nav-img{
+    background-color: white;
+    z-index: 1;
+    cursor: pointer;
+}
+
+nav{
+    background-color: rgb(178, 230, 100);
+    width:75%;
+}
+
+.banner{
+    margin-top:50px;
+    /* height:100px; */
+}
+
+nav a{
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 25px;
+    color:black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav a:hover{
+    /* cursor: pointer; */
+    text-decoration:underline;
+}
+.banner-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 70%;
+    margin-left:20px;
+    background: url(stock.jpeg);
+    background-size: cover;
+    background-position: center;
+    /* transform-origin: center; */
+}
+
+
+.heading-about p{
+    font-size: 1.5em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-indent: 20px;
+    line-height: 35px;
+}
+
+/* FEATURES SECTION */
+.machine-img{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.person-img{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.teaching-img{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.features{
+    display: flex;
+    z-index: -1;
+
+}
+.features-desc{
+    z-index: 1;
+    text-align: center;
+    padding: 0px 10px;
+    font-size: 30px;
+    border:2px black solid;
+    margin-right: 6px;
+    border-radius: 6px;
+    flex-basis: 33%;
+}
+/* END OF FEATURES SECTION */
+
+/* problems faced section */
+.pointers{
+    display: flex;
+}
+.pointers ul{
+    text-align:start;
+    font-size: 30px;
+    flex-basis: 25%;
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+
+/* end of problem faced section */
+
+/* footer section */
+#team{
+    margin-top: 40px;
+    background-color: rgb(241, 217, 172);
+    margin-left: 0px;
+}
+.members{
+    display: flex;
+    color: white;
+    /* font-family: 'Poppins', sans-serif; */
+}
+[data-people="pic"]{
+    flex-basis: 25%;
+}
+
+
+
+
+
+
+
+
+
+
